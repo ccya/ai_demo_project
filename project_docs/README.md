@@ -1,12 +1,10 @@
-# AI B2B Automation Demo Project
+# AI B2B Automation Demo Project (Edugrow.sg M&A Case)
 
 ## 项目整体目标
-利用 Make.com/Twilio/DocuSign/AI 搭建一套“从获客到签约”的 B2B 自动化闭环系统。
-* **商业目标**：通过封装标准化的自动化工具与服务，实现一年副业收入 $100,000。
-* **核心路径**：Upwork 接单积累案例 -> 沉淀为 SaaS 或订阅制服务 -> 销售“流程提效”方案。
+* **核心业务**：为精品 M&A 咨询公司（如 Edugrow.sg）构建端到端自动化系统，涵盖买家入驻、NDA 签署、AI 项目解析及 WhatsApp 智能跟进。
+* **商业目标**：通过封装此类高价值 B2B 自动化方案，实现年收入 $100,000 的订阅制服务转型。
 
 ## 目前进度 (Where It Is Now)
-当前处于 **阶段 1：本地原型开发**。已确定使用 Twilio 绕过 Meta 验证，正在进行环境初始化与 Google Sheets 数据对接准备。
-
-## 活动执行计划
-当前活跃计划：`implementation_plan.md`
+* **环境迁移完成**：已从本地环境迁移至 **GitHub Codespaces**，成功绕过公司笔记本对端口转发（Tunneling）的限制。
+* **技术栈就绪**：Google Sheets API 授权已完成，进入“AI 解析器”开发阶段。
+* **活跃计划**：`implementation_plan.md` (当前关注：AI 解析 IM 内容并写入 Sheets)。
